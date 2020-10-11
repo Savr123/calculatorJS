@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/images/Screenshot from 2020-09-26 20-36-58.png" type="image/x-icon">
+  <title>Calculator</title>
+  <script src="https://unpkg.com/mathjs@7.5.1/dist/math.min.js"></script>
+  <link href="./style/styles.css" rel="stylesheet">
+  <script src="./lib/calculation.js" defer></script>
+</head>
+<body>
+  <div class="calculator-grid">
+    <div class="output">
+      <div data-previous-expression class="previous-operand"></div>
+      <div data-current-expression class="current-operand"></div>
+    </div>
+    <button data-calcButton value="ClearAll" class="span-two">AC</button>
+    <button data-calcButton value="DEL">DEL</button>
+    <button data-calcButton value="/">÷</button>
+    <button data-calcButton value="sqrt(">√</button>
+    <button data-calcButton value="1">1</button>
+    <button data-calcButton value="2">2</button>
+    <button data-calcButton value="3">3</button>
+    <button data-calcButton value="*">*</button>
+    <button data-calcButton value="^2">x<sup>2</sup></button>
+    <button data-calcButton value="4">4</button>
+    <button data-calcButton value="5">5</button>
+    <button data-calcButton value="6">6</button>
+    <button data-calcButton value="+">+</button>
+    <button data-calcButton value="^">x<sup>y</sup></button>
+    <button data-calcButton value="7">7</button>
+    <button data-calcButton value="8">8</button>
+    <button data-calcButton value="9">9</button>
+    <button data-calcButton value="-">-</button>
+    <button data-calcButton value="!">x!</button>
+    <button data-calcButton value=".">.</button>
+    <button data-calcButton value="0">0</button>
+    <button data-calcButton value="=" class="span-two">=</button>
+    <button data-calcButton value="%">mod</button>
+  </div>
+</body>
+</html>
