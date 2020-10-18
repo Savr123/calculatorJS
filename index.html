@@ -13,34 +13,43 @@
 </head>
 
 <body>
-  <div class="calculator-grid">
-    <div class="output">
-      <div data-previous-expression class="previous-operand"></div>
-      <div data-current-expression class="current-operand"></div>
+  <div style="display: flex;">
+    <div style="display:flex; flex-direction:column ;align-items:center; justify-content:center">
+      <p>Используйте клавишиы на клавиатуре и для закрытия скобок используйте символы "(", ")"</p>
+      <p>Для Задания минуса оберните число в скобки</p>
+      <p>Кнопка "c" удаляет все, вне зависимости от раскладки клавиатуры и регистра</p>
+      <p>Кнопка "backspace" удаляет последний символ</p>
     </div>
-    <button data-calcButton value="ClearAll" class="span-two">AC</button>
-    <button data-calcButton value="DEL">DEL</button>
-    <button data-calcButton value="/">÷</button>
-    <button data-calcButton value="sqrt(">√</button>
-    <button data-calcButton value="1">1</button>
-    <button data-calcButton value="2">2</button>
-    <button data-calcButton value="3">3</button>
-    <button data-calcButton value="*">*</button>
-    <button data-calcButton value="^2">x<sup>2</sup></button>
-    <button data-calcButton value="4">4</button>
-    <button data-calcButton value="5">5</button>
-    <button data-calcButton value="6">6</button>
-    <button data-calcButton value="+">+</button>
-    <button data-calcButton value="^">x<sup>y</sup></button>
-    <button data-calcButton value="7">7</button>
-    <button data-calcButton value="8">8</button>
-    <button data-calcButton value="9">9</button>
-    <button data-calcButton value="-">-</button>
-    <button data-calcButton value="!">x!</button>
-    <button data-calcButton value=".">.</button>
-    <button data-calcButton value="0">0</button>
-    <button data-calcButton value="=" class="span-two">=</button>
-    <button data-calcButton value="%">mod</button>
+    <div class="calculator-grid">
+      <div class="output">
+        <div data-previous-expression class="previous-operand"></div>
+        <div data-current-expression class="current-operand"></div>
+      </div>
+      <button data-calcButton value="ClearAll" class="span-two">AC</button>
+      <button data-calcButton value="DEL">DEL</button>
+      <button data-calcButton value="/">÷</button>
+      <button data-calcButton value="sqrt(">√</button>
+      <button data-calcButton value="1">1</button>
+      <button data-calcButton value="2">2</button>
+      <button data-calcButton value="3">3</button>
+      <button data-calcButton value="*">*</button>
+      <button data-calcButton value="^2">x<sup>2</sup></button>
+      <button data-calcButton value="4">4</button>
+      <button data-calcButton value="5">5</button>
+      <button data-calcButton value="6">6</button>
+      <button data-calcButton value="+">+</button>
+      <button data-calcButton value="^">x<sup>y</sup></button>
+      <button data-calcButton value="7">7</button>
+      <button data-calcButton value="8">8</button>
+      <button data-calcButton value="9">9</button>
+      <button data-calcButton value="-">-</button>
+      <button data-calcButton value="!">x!</button>
+      <button data-calcButton value=".">.</button>
+      <button data-calcButton value="0">0</button>
+      <button data-calcButton value="=" class="span-two">=</button>
+      <button data-calcButton value="%">mod</button>
+    </div>
+
   </div>
 </body>
 
